@@ -93,4 +93,28 @@ This demonstrates the ability to configure, test, and manage firewall rules with
 
 ---
 
+## How Firewall Filters Traffic
+
+A firewall filters traffic by applying rules that determine whether to allow or block network packets based on specific criteria such as:
+
+* IP addresses (source or destination)
+
+* Ports (e.g., 22 for SSH, 23 for Telnet)
+
+* Protocols (TCP, UDP, ICMP, etc.)
+
+* Direction (incoming or outgoing traffic)
+
+When a packet reaches the system:
+
+1. The firewall checks it against the configured rules in order.
+
+2. If the packet matches a rule, the action (ALLOW or DENY) is applied.
+
+3. If no rule matches, the packet is handled by the default policy (deny by default in most firewalls).
+
+This ensures only legitimate, intended traffic is allowed, while blocking unauthorized or malicious connections.
+
+---
+
 #### Added screen grab of the Firewall Rules configuration in the /screenshots folder.
