@@ -90,3 +90,7 @@ Denied Telnet (23/tcp) and verified with Netcat that connections were blocked.
 Removed the Telnet block rule successfully.
 
 This demonstrates the ability to configure, test, and manage firewall rules with UFW.
+
+---
+
+#### Added screen grab of the Firewall Rules configuration in the /screenshots folder.
